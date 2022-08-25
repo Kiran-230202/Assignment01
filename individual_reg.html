@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Individual Registraion</title>
+</head>
+<body bgcolor="#5FF0EB">
+	<div style="background-color: #5FF0EB;"><center>
+		<form>
+			<table>
+				<th style="color:red">User Particular</th>
+    		<tr>
+    			<td>Login ID:</td>
+    			<td><input type="text" name=""></td>
+    		</tr>
+
+    		<tr>
+    			<td>Password:</td>
+    			<td><input type="password" name="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
+    		</tr>
+
+    		<tr>
+    			<td>Confirm Password</td>
+    			<td><input type="password" name="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
+    		</tr>
+
+    		<th style="color:red">Personal Particulars</th>
+
+    		<tr>
+    			<td>Salutaion:</td>
+    			<td><select>
+    				<option hidden>--Select--</option>
+    				<option>Mr.</option>
+    				<option>Mrs.</option>
+    			</select></td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    			<td>First Name:</td>
+    			<td><input type="text" name=""></td>
+    		</tr>
+
+    		<tr>
+    			<td>Middle Name:</td>
+    			<td><input type="text" name="" required></td>
+    			<td>Last Name:</td>
+    			<td><input type="text" name="" required></td>
+    		</tr>
+    		<tr>
+    			<td>Resident:</td>
+    			<td><select>
+    				<option hidden>--Select--</option>
+    				<option>Indian</option>
+    				<option>Non-Indian</option>
+    			</select></td>
+
+    			<td>Country:</td>
+    			<td><select>
+    				<option hidden>--Select--</option>
+    				<option>India</option>
+    				<option>UK</option>
+    			</select></td>
+    		</tr>
+
+    		<tr>
+    			<td>Email:</td>
+    			<td><input type="email" name=""></td>
+
+    			<td>Mobile number:</td>
+    			<td><input type="text" name=""></td>
+    		</tr>
+
+    		<th style="color:red">Account Particulars</th>
+    		<tr>
+    			<td>15 Digit Account No:</td>
+    		    <td><input type="text" name="" required pattern="{15}"></td>
+
+    		    <td>Nick Name:</td>
+    		    <td><input type="text" name="" required pattern="[a-zA-Z]{6}"></td>
+    		</tr>
+
+    		<tr>
+    			<td>Fund Transfer:</td>
+    			<td><select>
+    				<option hidden>--Select--</option>
+    				<option>SBI</option>
+    			</select></td>
+    		</tr>
+
+    		<tr>
+    			<td colspan="4" align="center" ><input type="submit" name=""><input type="reset" name=""></td>
+    		</tr>
+			</table>
+			<h2 style="color:red">DECLARATION</h2>
+			<p>I certify that the information I have written on the application form and the documents I have submitted to be
+            true and accurate.</p>
+		</form>
+	</div>
+
+</body>
+</html>
