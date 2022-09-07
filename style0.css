@@ -1,0 +1,36 @@
+.x{
+			background: rebeccapurple;
+			height: 250px;
+			width: 250px;
+		}
+		.x:hover{
+			background: gray;
+			height: 500px;
+			width: 500px;
+			transition: 5s;
+
+		}
+		input:focus{
+			background: black;
+			color: white;
+			height: 50px;
+			width: 100%;
+			font-size: 50px;
+			font-weight: bold;
+		}
+		/*.a::first-letter{
+			background: lightblue;
+			color: white;
+
+		}*/
+		.a::first-line{
+			background: lavender;
+			color: black;
+		}
+		h1::before{
+			content: "\229B";
+
+		}
+		h1::after{
+			content: "//";
+		}
