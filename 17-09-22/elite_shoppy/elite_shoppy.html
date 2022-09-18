@@ -224,15 +224,39 @@
 		    left: 283px;
 		}
 
-		.button span{
+		.button a{
 			background: #2fdab8;
 			color: white;
+			padding: 15px;
 			position: absolute;
-			outline: 2px solid;
 			top: 450px;
-			left: 110px;
-			padding: 10px;
+			left: 120px;
 		}
+
+		.button a::after{
+			content: "";
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 47px;
+			width: 130px;
+		    outline: 5px solid #2fdab8;
+		    /*z-index: -1;*/
+		    /*display: none;*/
+		    transition: 0.4s;
+		}
+
+		.button a:hover::after{
+			top: -10px;
+			left: -15px;
+			height:70px;
+			width: 170px;
+
+		}
+
+		
+
+
 
 
 	</style>
@@ -250,7 +274,7 @@
 				<div class="info">
 					<span class="price">$45.99</span>
 					<del>$69.91</del>
-					<div class="button"><a href="#"><span>ADD TO CART</span></a></div>
+					<div class="button"><a href="#">ADD TO CART</a></div>
 				</div>
 			</div>
 		</div>
@@ -265,7 +289,7 @@
 				<div class="info">
 					<span class="price">$45.99</span>
 					<del>$69.91</del>
-					<div class="button"><a href="#"><span>ADD TO CART</span></a></div>
+					<div class="button"><a href="#">ADD TO CART</a></div>
 				</div>
 			</div>
 		</div>
@@ -280,7 +304,7 @@
 				<div class="info">
 					<span class="price">$80.99</span>
 					<del>$89.71</del>
-					<div class="button"><a href="#"><span>ADD TO CART</span></a></div>
+					<div class="button"><a href="#">ADD TO CART</a></div>
 				</div>
 
 			</div>
@@ -296,12 +320,13 @@
 				<div class="info">
 					<span class="price">$159.71</span>
 					<del>$190.99</del>
-					<div class="button"><a href="#"><span>ADD TO CART</span></a></div>
+					<div class="button"><a href="#">ADD TO CART</a></div>
 				</div>
 			</div>
 		</div>
 		
 	</div>
-
+height: 47px;
+			width: 130px;
 </body>
 </html>
