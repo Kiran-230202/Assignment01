@@ -1,0 +1,251 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.scroll{
+	height: 250px;
+	width: 250px;
+	background: lightgreen;
+	position: absolute;
+	top: 69px;
+	left: 565px;
+}
+
+.header .logo{
+	width: 20%;
+	padding-left: 50px;
+}
+
+.header .info{
+	width: 50%;
+	display: flex;
+	background: blue;
+	overflow: hidden;
+}
+
+.header .info .text{
+	text-decoration: none;
+	color: black;
+	font-family: 'Inter Tight', sans-serif;
+	transition: 3s;
+}
+
+.a:hover .text1{
+	color: white;
+}
+.header .info .a{
+	width: 17%;
+    text-align: center;
+    line-height:70px;
+	background: lightcoral;
+	position: relative;
+	z-index: 0;
+	
+}
+
+.header .info .a::after{
+	content: "";
+	height: 40px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	color: white;
+	border-top: 2px solid black;
+	top: 14px;
+	left: 15px;
+	z-index: -1;
+	display: none;
+
+}
+
+.header .info .a:hover::after{
+	display: block;
+	animation: animation 0.5s linear ;
+
+}
+
+@keyframes animation{
+	from{transform: translateY(56px); opacity: 0;}
+	to{transform: translateY(-5px); opacity: 1;}
+}
+
+
+.header .info .b{
+	width: 17%;
+	text-align: center;
+    line-height:70px;
+	background: lightblue;
+	position: relative;
+	z-index: 0;
+}
+
+.b:hover .text2{
+	color: white;
+}
+
+
+.header .info .b::after{
+	content: "";
+	height: 40px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	border-top: 2px solid black;
+	top: 14px;
+	left: 15px;
+	z-index: -1;
+	display: none;
+}
+
+.header .info .b:hover::after{
+	display: block;
+	animation: animation 0.5s linear ;
+
+}
+
+.header .info .c{
+	width: 17%;
+	text-align: center;
+    line-height:70px;
+	background: lightcoral;
+	position: relative;
+	z-index: 0;
+}
+
+.c:hover .text3{
+	color: white;
+}
+
+.header .info .c::after{
+	content: "";
+	height: 40px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	border-top: 1px solid black;
+	top: 14px;
+	left: 15px;
+	z-index: -1;
+	display: none;
+}
+
+.header .info .c:hover::after{
+	display: block;
+	animation: animation 0.5s linear ;
+
+}
+
+.header .info .d{
+	width: 17%;
+	text-align: center;
+    line-height:70px;
+	background: lightblue;
+	position: relative;
+	z-index: 0;
+}
+
+.d:hover .text4{
+	color: white;
+}
+
+.header .info .d::after{
+	content: "";
+	height: 40px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	border-top: 2px solid black;
+	top: 14px;
+	left: 15px;
+	z-index: -1;
+	display: none;
+}
+
+.header .info .d:hover::after{
+	display: block;
+	animation: animation 0.5s linear ;
+
+}
+
+.header .info .e{
+	width: 16%;
+	text-align: center;
+    line-height:70px;
+	background: lightcoral;
+	position: relative;
+	z-index: 0;
+}
+
+.e:hover .text5{
+	color: white;
+}
+
+.header .info .e::after{
+	content: "";
+	height: 40px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	border-top: 2px solid black;
+	top: 14px;
+	left: 15px;
+	z-index: -1;
+	display: none;
+}
+
+.header .info .e:hover::after{
+	display: block;
+	animation: animation 0.5s linear ;
+
+}
+
+.header .info .f{
+	width: 17%;
+	text-align: center;
+    line-height:70px;
+	background: lightblue;
+	position: relative;
+	z-index: 0;
+}
+
+.f:hover .text6{
+	color: white;
+}
+
+.header .info .f::after{
+	content: "";
+	height: 40px;
+	width: 100px;
+	background: red;
+	position: absolute;
+	border-top: 2px solid black;
+	top: 14px;
+	left: 15px;
+	z-index: -1;
+	display: none;
+}
+
+.header .info .f:hover::after{
+	display: block;
+	animation: animation 0.5s linear ;
+
+}
+
+
+.header .helpdesk{
+	width: 30%;
+	background: yellow;
+
+}
+
+
