@@ -1,0 +1,332 @@
+@media (max-width: 1100px){
+	.header .info{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.header .info .a{
+        width: 20%;
+    }
+
+    .header .info .a::after{
+        content: "";
+        top: 14px;
+        left: 40px;
+    }
+
+    .header .info .b{
+        width: 20%;
+    }
+
+      .header .info .b::after{
+        content: "";
+        top: 14px;
+        left: 40px;
+    }
+
+    .header .info .c{
+        width: 20%;
+    }
+
+      .header .info .c::after{
+        content: "";
+        top: 14px;
+        left: 40px;
+    }
+
+    .header .info .d{
+        width: 20%;
+    }
+
+      .header .info .d::after{
+        content: "";
+        top: 14px;
+        left: 40px;
+    }
+
+    .header .info .e{
+        width: 20%;
+    }
+
+      .header .info .e::after{
+        content: "";
+        top: 14px;
+        left: 40px;
+    }
+
+    .header .info .f{
+        width: 20%;
+    }
+
+      .header .info .f::after{
+        content: "";
+        top: 14px;
+        left: 40px;
+    }
+
+    .header .helpdesk{
+    	position: absolute;
+    	top: 0;
+    	left: 700px;
+    	width: 50%;
+    	width: 30%;
+    }
+}
+
+@media (max-width: 900px){
+
+	.header .logo{
+           width: 30%;
+           padding-left: 25px;
+     }
+
+	.header .info{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.header .info .a{
+        width: 50%;
+    }
+
+    .header .info .a::after{
+        content: "";
+        top: 14px;
+        left: 25px;
+    }
+
+
+    .header .info .b{
+        width: 50%;
+    }
+
+
+    .header .info .b::after{
+        content: "";
+        top: 14px;
+        left: 25px;
+    }
+
+    .header .info .c{
+        width: 50%;
+    }
+
+    .header .info .c::after{
+        content: "";
+        top: 14px;
+        left: 25px;
+    }
+
+    .header .info .d{
+        width: 50%;
+    }
+
+    .header .info .d::after{
+        content: "";
+        top: 14px;
+        left: 25px;
+    }
+
+    .header .info .e{
+        width: 50%;
+    }
+
+    .header .info .e::after{
+        content: "";
+        top: 14px;
+        left: 25px;
+    }
+
+    .header .info .f{
+        width: 50%;
+    }
+
+    .header .info .f::after{
+        content: "";
+        top: 14px;
+        left: 25px;
+    }
+
+    .header .helpdesk{
+    	position: absolute;
+    	top: 0;
+    	left: 500px;
+    	width: 50%;
+    }
+
+    
+}
+
+
+@media (max-width: 700px){
+
+	.header .logo{
+           width: 30%;
+           padding-left: 25px;
+     }
+
+	.header .info{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.header .info .a{
+        width: 50%;
+    }
+
+    .header .info .a::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+
+    .header .info .b{
+        width: 50%;
+    }
+
+
+    .header .info .b::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .c{
+        width: 50%;
+    }
+
+    .header .info .c::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .d{
+        width: 50%;
+    }
+
+    .header .info .d::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .e{
+        width: 50%;
+    }
+
+    .header .info .e::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .f{
+        width: 50%;
+    }
+
+    .header .info .f::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .helpdesk{
+    	position: absolute;
+    	top: 0;
+    	left: 320px;
+    	width: 50%;
+    }
+
+    
+}
+
+
+@media (max-width: 500px){
+
+	.header .logo{
+           width: 50%;
+           padding-left: 25px;
+     }
+
+	.header .info{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.header .info .a{
+        width: 100%;
+    }
+
+    .header .info .a::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+
+    .header .info .b{
+        width: 100%;
+    }
+
+
+    .header .info .b::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .c{
+        width: 100%;
+    }
+
+    .header .info .c::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .d{
+        width: 100%;
+    }
+
+    .header .info .d::after{
+        content: "";
+        top: 14px;
+        left: 10px;
+    }
+
+    .header .info .e{
+        width: 50%;
+        position: absolute;
+        top: 140px;
+        left: -70px;
+    }
+
+    .header .info .e::after{
+        content: "";
+        top: 14px;
+        left: 80px;
+    }
+
+    .header .info .f{
+        width: 50%;
+        position: absolute;
+        top: 140px;
+        left: 60px;
+    }
+
+    .header .info .f::after{
+        content: "";
+        top: 14px;
+        left: 75px;
+    }
+
+    .header .helpdesk{
+    	position: absolute;
+    	top: 0;
+    	width: 100%;
+    }   
+}
+
