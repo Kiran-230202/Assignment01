@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.a{
+			height: 200px;
+			width: 200px;
+			margin: auto 1100px;
+			background: #002;
+			border: 10px solid;
+			border-image: linear-gradient(to right,red,blue)1;
+		}
+
+		.b{
+			height: 500px;
+			width: 500px;
+			margin: auto ;
+			background: #003;
+			border: px ;
+			position: relative;
+		}
+
+		.b::after{
+			content: "";
+			position: absolute;
+			top: -25px;
+			left: -25px;
+			height: 550px;
+			width: 550px;
+			background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+			z-index: -1;
+			background-size: 400% 400%;
+			animation: animation 2s ease alternate infinite;
+
+		}
+
+		@keyframes animation{
+			0%{
+				background-position: 0% 50%;
+			}
+			50%{
+				background-position: 100% 50%;
+			}
+
+			100%{
+				background-position: 0% 50%;
+			}
+		}
+
+		h1{
+			color: forestgreen;
+			padding: 180px;
+		}
+
+		.c{
+			height: 500px;
+			width: 500px;
+			margin: 500px auto;
+			background: linear-gradient(65deg,yellow,blue,lightblue,coral,red,green,purple,white,magenta);
+			background-size: 400% 400%;
+			animation: rotate 15s linear alternate infinite ;
+		}
+
+		@keyframes rotate{
+			0%{
+				background-position: 0% 40% ;
+			}
+
+			40%{
+				background-position: 100% 40%;
+			}
+
+			100%{
+				background-position: 0% 40%;
+			}
+
+
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div class="a">
+		
+	</div>
+
+	<div class="b">
+		<h1>BORDER</h1>
+	</div>
+
+	<div class="c"></div>
+
+</body>
+</html>
