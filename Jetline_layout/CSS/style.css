@@ -10,7 +10,7 @@
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -719,7 +719,7 @@
 
 .carousel .plane .plane_2 .cardcontent {
     width: 250px;
-     margin-top: 350px;
+    margin-top: 350px;
     margin-left: -340px;
 
 
