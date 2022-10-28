@@ -1,106 +1,278 @@
-@media(max-width:1400px){
+@media(max-width:1400px) {
     .header {
         width: 100%;
     }
+
+    .header .logo {
+        width: 25%;
+    }
+
+    .header .nav {
+        width: 50%;
+    }
+
+    .header .call {
+        height: 100px;
+        width: 25%;
+        position: absolute;
+        top: 0;
+        left: 1030px;
+    }
+
     
-.header .logo {
-    width: 25%;
+.content1 .container {
+    position: relative;
+    margin-left: 400px;
+    padding-top: 142px;
 }
 
-.header .nav {
-    width: 50%;
-}
-.header .call {
-    height: 100px;
-    width: 25%;
-    position: absolute;
-    top: 0;
-    left: 1048px;
-}
+    .content2 .tablo .tablo_1 .t1 {
+        margin-left: 80px;
+    }
 
-.content2 .tablo .tablo_1 .t1 {
-    margin-left:80px;
-}
+    .content3 .tablo .tablo_1 .t1 {
+        margin-left: 700px;
+    }
 
-.content3 .tablo .tablo_1 .t1 {
-    margin-left: 700px;
-}
+    .carousel .plane {
+        margin-left: 50px;
 
-.carousel .plane {
-    margin-left: 50px;
+    }
 
-}
+    .carousel .plane .plane_1 .cardcontent {
+        width: 250px;
+        margin-top: 350px;
+        margin-left: -300px;
+    }
 
-.carousel .plane .plane_1 .cardcontent {
-    width: 250px;
-    margin-top: 350px;
-    margin-left: -300px;
-}
+    .carousel .plane .plane_2 .cardcontent {
+        width: 250px;
+        margin-top: 350px;
+        margin-left: -280px;
+    }
 
-.carousel .plane .plane_2 .cardcontent {
-    width: 250px;
-    margin-top: 350px;
-    margin-left: -280px;
-}
+    .carousel .plane .plane_3 .cardcontent {
+        width: 300px;
+        margin-top: 350px;
+        margin-left: -290px;
+    }
 
-.carousel .plane .plane_3 .cardcontent {
-    width: 300px;
-    margin-top: 350px;
-    margin-left: -290px;
-}
+    .carousel .plane .plane_1,
+    .plane_2,
+    .plane_3 {
+        width: 30%;
+        height: 400px;
+        display: flex;
+        transition: 0.9s;
+    }
 
-.carousel .plane .plane_1,.plane_2,.plane_3 {
-    width: 30%;
-    height: 400px;
-    display: flex;
-    transition: 0.9s;
-}
+    .carousel .plane .plane_1 .img {
+        margin-top: 50px;
+        height: 250px;
+        width: 350px;
+    }
 
-.carousel .plane .plane_1 .img {
-    margin-top: 50px;
-    height: 250px;
-    width: 350px;
-} 
+    .carousel .plane .plane_2 .img {
+        margin-top: 50px;
+        height: 250px;
+        width: 350px;
+    }
 
-.carousel .plane .plane_2 .img {
-    margin-top: 50px;
-    height: 250px;
-    width: 350px;
-} 
+    .carousel .plane .plane_3 .img {
+        margin-top: 50px;
+        height: 250px;
+        width: 350px;
+    }
 
-.carousel .plane .plane_3 .img {
-    margin-top: 50px;
-    height: 250px;
-    width: 350px;
-} 
+    .content4 {
+        margin-left: -50px;
+    }
 
-.content4 {
-    margin-left: -50px;
-}
+    .footer .logo_image {
+        left: -60px;
+    }
 
-.footer .logo_image {
-    left: -60px;
-}
+    .footer .container .row .box {
+        width: 230px;
+    }
 
-.footer .container .row .box {
-    width: 235px;
-}
+    .footer .container .row .box .info ul .social {
+        font-size: 33px;
+        padding: 5px;
 
-.footer .container .row .box .info ul .social {
-    font-size: 33px;
-    padding: 5px;
-
-}
+    }
 
 
-.footer .container .row .box .info .font {
-    font-size: 20px;
+    .footer .container .row .box .info .font {
+        font-size: 20px;
+    }
+
+    .footer .container .row .box .info p {
+        font-size: 15px;
+    }
+
 }
 
-.footer .container .row .box .info p {
-    font-size: 15px;
-}
-    
+@media(max-width:1200px) {
+
+    .header {
+        width: 100%;
+        height: 100px;
+    }
+
+    .header .logo {
+        width: 25%;
+    }
+
+    .header .nav {
+        width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        margin-left: 40px;
+    }
+
+    .header .nav .a::after {
+        content: "";
+        position: absolute;
+        top: 28px;
+        left: -25px;
+    }
+
+
+    .header .nav .a:hover::after {
+        opacity: 1;
+        transform: translate(0, -20px);
+
+    }
+
+    .nav .c .scroll {
+        top: 61px;
+        left: -24px;
+
+    }
+
+    .header .nav .a a {
+        font-size: 10px;
+        position: absolute;
+        top: -20px;
+        left: 0;
+
+    }
+
+    .header .call {
+        height: 100px;
+        width: 20%;
+        position: absolute;
+        top: 0;
+        left: 780px;
+    }
+
+
+    .header .call .con .c1 p {
+        font-size: 20px;
+        font-weight: bolder;
+
+    }
+
+    .content1 {
+        background-image: url(../IMAGES/slider-fly-4.jpg);
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        box-shadow: 0 0 0 500px rgba(4, 4, 4, 0.5) inset;
+    }
+
+    .content1 .container {
+        margin-left: 390px;
+    }
+
+    .content2 .tablo {
+        width: 100%;
+        display: flex;
+        margin-left: 50px;
+
+        flex-wrap: wrap;
+    }
+
+    .content2 .tablo .tablo_1 .t1 {
+        height: 450px;
+        width: 580px;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-left: 40px;
+        position: relative;
+    }
+
+    .content3 .tablo .tablo_1 .t1 {
+        height: 450px;
+        width: 580px;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-left: 600px;
+        position: relative;
+    }
+
+    .content3 .tablo .tablo_2 .t2 {
+        width: 400px;
+        margin-top: 50px;
+        margin-left: -430px;
+
+    }
+
+    .content4 .box1 .img {
+        width: 450px;
+        height: 230px;
+        margin-left: 80px;
+    }
+
+    .content4 .box2 .form {
+        margin-left: 15px;
+        margin-top: 100px;
+    }
+
+
+    .content4 .box2 .form .heading h2 {
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+
+    .content4 .box2 .form .heading p {
+        position: absolute;
+        top: -40px;
+        left: 50px;
+    }
+
+    .content4 .box2 .form form {
+        height: 110px;
+        margin-bottom: 145px;
+        margin-left: -10px;
+
+    }
+
+    .content4 .box2 .form form .input .colsm {
+        padding: 5px;
+    }
+
+    .content4 .box2 .form form .btn {
+        height: 80px;
+        width: 665px;
+    }
+
+
+    .content4 .box2 .form form .btn button {
+        width: 665px;
+        height: 80px;
+        background-color: #fff;
+        color: grey;
+        border: none;
+        border-bottom: 1px solid #ea1d27;
+        cursor: pointer;
+    }
+
 }
 
 
@@ -172,7 +344,7 @@
         width: 420px;
         background-color: #fff;
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: -20px;
         position: relative;
     }
 
@@ -182,6 +354,9 @@
 
     .content2 .tablo .tablo_1 .t1 .red_2 {
         display: none;
+    }
+    .content2 .tablo .tablo_2 .t2{
+        margin-left: -20px;
     }
 
     .content2 .tablo .tablo_2 .t2 p {
@@ -409,18 +584,22 @@
         width: 460px;
         font-size: 25px;
     }
+    .content4 .box2 .form .heading p{
+        margin-top: 120px;
+        margin-left: -50px;
+    }
 
     .content4 .box1 .img {
         width: 450px;
         height: 310px;
-        margin-left: 10px;
+        margin-left: 70px;
         margin-top: 100px;
     }
 
     .content4 .box2 .form form {
         position: relative;
         top: 150px;
-        left: 40px;
+        left: 60px;
     }
 
     .content4 .box2 .form form .input {
