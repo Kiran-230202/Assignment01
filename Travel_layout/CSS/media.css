@@ -61,31 +61,31 @@
     .container6 .content1 p {
         padding: 0 20px;
         width: 650px;
-        margin-left: 350px;
+        margin-left: 280px;
         color: gray;
     }
 
+    
+.container7{
+    width: 100%;
+    height: auto;
+    background-color: #cd320e;
+    margin-top: 400px;
+    position: relative;
+}
 
-    .container7 {
-        width: 100%;
-        height: auto;
-        background-color: #cd320e;
-        margin-top: 400px;
-        position: relative;
-    }
-
-    .container7 .boxes {
-        width: 81.5%;
-        height: auto;
-        position: absolute;
-        top: 50px;
-        left: 150px;
-        /* background-color: #cacd0e; */
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 2rem;
-        column-gap: 2rem;
-    }
+.container7 .boxes{
+    width: 81.5%;
+    height:auto;
+    position: absolute;
+    top: 50px;
+    left:150px;
+    /* background-color: #cacd0e; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
 
 
 
@@ -228,31 +228,31 @@
         color: gray;
     }
 
+    
+
+.container7{
+    width: 100%;
+    height: auto;
+    background-color: #cd320e;
+    margin-top: 400px;
+    position: relative;
+}
+
+.container7 .boxes{
+    width: 93.1%;
+    height:auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /* background-color: #cacd0e; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
 
 
-    .container7 {
-        width: 100%;
-        height: auto;
-        background-color: #cd320e;
-        margin-top: 400px;
-        position: relative;
-    }
-
-    .container7 .boxes {
-        width: 93.1%;
-        height: auto;
-        position: absolute;
-        top: 50px;
-        left: 50px;
-        /* background-color: #cacd0e; */
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 2rem;
-        column-gap: 2rem;
-    }
-
-
-
+    
 
 
 
@@ -492,15 +492,15 @@
         color: gray;
     }
 
-    .container7 {
+    .container7{
         width: 100%;
         height: auto;
         background-color: #cd320e;
         margin-top: 400px;
         position: relative;
     }
-
-    .container7 .boxes {
+    
+    .container7 .boxes{
         width: 70%;
         height: auto;
         position: absolute;
@@ -513,13 +513,13 @@
         column-gap: 0rem;
     }
 
-    .container7 .boxes .box1 {
+    .container7 .boxes .box1{
         /* border: 1px solid black; */
         width: 350px;
         background-color: #cd320e;
-
+        
     }
-
+    
 
 
 
